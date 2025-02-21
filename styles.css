@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: black;
 }
 
 .container {
@@ -12,6 +12,22 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the alpha value here for the box shadow transparency */
     margin-top: 105px;
+}
+
+.topnav {
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color:#007BFF;
+    text-align:left;
+    padding: 14px;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: white;
 }
 
 h1 {
