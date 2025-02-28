@@ -6,24 +6,23 @@
     <title>Weather App</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <h1 style="color:white;">Home Page</h1>
+    <h1 style="color:white;">New Weather Application</h1>
     <div class="topnav">
         <a href="./index.html">Home</a>
         <a href="./weather.html">Weather</a>
         <a href="#api">API Info</a>
     </div>
     <div class="container">
-        <h1>Welcome Back</h1>
-        <input type="text" id="username" placeholder="Enter your username">
-        <input type="text" id="password" placeholder="Enter your password">
-        <button id="loginButton">Log In</button>
+        <h1>Weather App</h1>
+        <input type="text" id="locationInput" placeholder="Enter a city">
+        <button id="searchButton">Search</button>
         <div class="weather-info">
-            <p id="uname"></p>
-            <p id="word"></p>
+            <h2 id="location"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
         </div>
     </div>
-    <script src="login.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
